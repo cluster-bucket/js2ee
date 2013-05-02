@@ -1,0 +1,21 @@
+{
+  "name": "js2ee",
+  "description": "A request-driven web application controller",
+  "version": "0.1.0",
+  "main": "bootstrap.js",
+  "directories": {},
+  "scripts": {},
+  "keywords": [
+    "coffeescript",
+    "j2ee"
+  ],
+  "author": "Dustin Boston <dustin@dblogit.com>",
+  "contributors": [],
+  "license": "",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.6.0",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-connect": "~0.3.0"
+  }
+}
