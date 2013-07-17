@@ -9,7 +9,7 @@ module.exports = (grunt) ->
           expand: true
           cwd: 'src/'
           src: '**/*.litcoffee'
-          dest: 'dev/'
+          dest: 'dist/'
           ext: '.js'
         ]
         options:
@@ -21,7 +21,7 @@ module.exports = (grunt) ->
           keepBuildDir: true
           appDir: 'src'
           baseUrl: './'
-          dir: 'dev'
+          dir: 'dist'
           optimize: 'none'
           optimizeCss: 'none'
           fileExclusionRegExp: /^\.|\.litcoffee$/
@@ -36,7 +36,7 @@ module.exports = (grunt) ->
     connect:
       server:
         options:
-          base: 'dev'
+          base: 'dist'
           keepalive: true
 
   # Load tasks
